@@ -1,4 +1,4 @@
-<b>what is Flexbox!</b>
+<b>What is FLEXBOX?</b><hr>
 A one-dimentional layout model.
 
 Easy to design 
@@ -39,3 +39,16 @@ Another notable pointis Axis.
     <li><strong>flex-justify</strong> that justifies content that defines the alignment of the items along the main axis.</li>
     <li><strong>align-items</strong> which defines how flex items are laid out along the cross axis.</li>
     <li><strong>align-content</strong> is similar to justify-content with the difference being this will align the cross axis instead of the main axis. Also aligned content works when there are multiple rows of Flex items in the container.</li>
+
+<b>Property Values:</b>
+
+<ul>
+    <li><b>display</b> {flex, inline-flex}</li>
+    <li><b>flex-direction</b> {row, row-reverse, column, column-reverse}</li>
+    <li><b>flex-wrap</b> {nowrap(default), wrap, wrap-reverse}</li>
+    <li><b>flex-flow</b> {<flex-direction> <flex-wrap>}</li>
+    <li><b></b></li>
+    <li><b></b></li>
+    <li><b></b></li>
+    <li><b></b></li>
+</ul>
