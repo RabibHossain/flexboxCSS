@@ -42,13 +42,26 @@ Another notable pointis Axis.
 
 <b>Property Values:</b>
 
-<ul>
+<ul> Flex Properties
     <li><b>display</b> {flex, inline-flex}</li>
     <li><b>flex-direction</b> {row, row-reverse, column, column-reverse}</li>
     <li><b>flex-wrap</b> {nowrap(default), wrap, wrap-reverse}</li>
-    <li><b>flex-flow</b> {<flex-direction> <flex-wrap>}</li>
+    <li><b>flex-flow</b> {flex-direction flex-wrap}</li>
+    <li><b>justify-content</b> {flex-start, flex-end, center, space-between, space-around, space-evenly}</li>
+    <li><b>align-items</b> {streatch(default), flex-start, flex-end, center, baseline}</li>
+    <li><b>align-content</b> {flex-start, flex-end, center, space-between, space-around, space-evenly}</li>
     <li><b></b></li>
     <li><b></b></li>
     <li><b></b></li>
+    <li><b></b></li>
+</ul>
+
+<ul> Flex item properties
+    <li><b>order</b>: controls the order of items in the flex container. <br>Integer value</li>
+    <li><b>flex-grow</b></li>
+    <li><b>flex-shrink</b></li>
+    <li><b>flex-basis</b></li>
+    <li><b>flex</b></li>
+    <li><b>align-self</b></li>
     <li><b></b></li>
 </ul>

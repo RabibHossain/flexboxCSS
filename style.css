@@ -4,10 +4,6 @@ body {
 .container {
     border: 6px solid black;
     display: flex;
-    /* flex-direction: row;
-    flex-wrap: nowrap; */
-    flex-flow: column-reverse wrap-reverse;
-    height: 400px;
 }
 .flex-item {
     color: white;
@@ -23,12 +19,14 @@ body {
 }
 .item-3 {
     background-color: #1C4C56;
+    order: 1;
 }
 .item-4 {
     background-color: #CfB276;
 }
 .item-5 {
     background-color: #6B0803;
+    order: 1;
 }
 .item-6 {
     background-color: #1C4C56;
