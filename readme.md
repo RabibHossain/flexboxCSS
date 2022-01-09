@@ -58,10 +58,10 @@ Another notable pointis Axis.
 
 <ul> Flex item properties
     <li><b>order</b>: controls the order of items in the flex container. <br>Integer value</li>
-    <li><b>flex-grow</b></li>
-    <li><b>flex-shrink</b></li>
-    <li><b>flex-basis</b></li>
-    <li><b>flex</b></li>
-    <li><b>align-self</b></li>
+    <li><b>flex-grow</b> Dictates what amount of the available space inside the flex container the item should take up. Relative to other items in the container. <br>Default value is 0. Items do not grow.</li>
+    <li><b>flex-shrink</b> Dictates the shrink factor of the flex items when the default size of flex items is larger than the flex container. Relative to the other items in the container. <br>Default value is 1.</li>
+    <li><b>flex-basis</b> Set the initial size of a flex item. Pixels, percentages or relative units. <br>Default value is auto.</li>
+    <li><b>flex</b> Short hand for flex grow, flex shrink & flex basis. <br> It can be specified in one, two or three values</li>
+    <li><b>align-self</b> Align the items individually. <br>Values like auto, flex-start, flex-end, center and stretch. <br>Overrides align-items value of the flex container.</li>
     <li><b></b></li>
 </ul>
